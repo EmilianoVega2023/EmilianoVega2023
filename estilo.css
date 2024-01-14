@@ -1,0 +1,29 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+
+  #chart {
+    position: relative;
+    width: 100px; 
+    height: 500px; 
+    margin: 50px auto;
+    border: 1px solid white;
+  }
+
+  .vela {
+    position: absolute;
+    width: 20px;
+    background-color: transparent;
+  }
+
+  .vela.verde {
+    background-color: green;
+  }
+
+  .vela.roja {
+    background-color: red;
+  }
