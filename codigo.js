@@ -1,27 +1,15 @@
-//Mostrar todos los números de 1 a N aumentando de 2 en 2 donde n lo ingresa el usuario en un prompt.
-const N = parseInt(prompt("Digite su numero: "));
-let valoresPares = [];
+// Crear una función que reciba un valor cualquiera y lo muestre ocupando console.log(), llamar a la función pasando el valor 5
+
 let datos = [];
+let n = prompt("Ingrese el valor de n:");
 
-function ejecucion(){
-    
-for(let i = 0;i > N;i+2){
-    i = datos[i];
-    if (datos[i] == undefined) {
-        break;
-        } else{
-            valoresPares.push(datos[i]);
-            }
+n = parseInt(n);
+
+if (isNaN(n) || n < 0) {
+  alert("Por favor, ingrese un número válido y positivo.");
+} else {
+  for (let i = 0; i <= n; i++) {
+    datos.push(i);
+  }
+  console.log("Array 'datos':", datos);
 }
-}
-
-ejecucion();
-    
-console.log(datos);
-
-// if (i % 2 == 0){
-//     const element = array2.push(i);
-//     console.log(`${element}`)
-//     console.log(i);
-//     }
-// }
