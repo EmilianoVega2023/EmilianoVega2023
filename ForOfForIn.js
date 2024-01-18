@@ -16,4 +16,4 @@ for(const leccion of ejemplo){
 
 for(const leccion in ejemplo){
     console.log(leccion);
-}
+}                                                           
